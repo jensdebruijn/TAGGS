@@ -1,0 +1,14 @@
+gdal
+psycopg2
+pandas
+numpy
+elasticsearch
+geopy
+pyshp
+shapely==1.6b4
+geojson
+requests
+scikit-learn
+xlrd
+lxml
+xlsxwriter

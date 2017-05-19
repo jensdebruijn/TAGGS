@@ -1,0 +1,80 @@
+{
+  "twitter": {
+    "mappings": {
+      "tweet": {
+        "properties": {
+          "bbox": {
+            "type": "float"
+          },
+          "coordinates": {
+            "type": "geo_point"
+          },
+          "date": {
+            "type": "date"
+          },
+          "lang": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "locations": {
+            "type": "nested",
+            "properties": {
+              "coordinates": {"type": "geo_point"}
+            }
+          },
+          "retweet": {
+            "type": "boolean"
+          },
+          "text": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "urls": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "user": {
+            "properties": {
+              "id": {
+                "type": "long"
+              },
+              "location": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "time zone": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
