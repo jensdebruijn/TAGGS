@@ -22,6 +22,15 @@ Requirements
 * PostgreSQL (tested with v9.6)
 * PostGIS (tested with v2.3)
 
+Datasets
+============
+* [GeoNames database](http://download.geonames.org/export/dump/readme.txt)
+* [Natural Earth data](http://www.naturalearthdata.com/)
+* [1000 Most Common Words](http://1000mostcommonwords.com/)
+* [Twitter Data through streaming API](https://dev.twitter.com/streaming/overview)
+* [tz_world](http://efele.net/maps/tz/world/)
+* [ESRI Continents map](https://www.arcgis.com/home/item.html?id=a3cb207855b348a297ab85261743351ds)
+
 Installation
 ============
 
