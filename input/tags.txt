@@ -1,0 +1,47 @@
+flood, en
+floods, en
+flooding, en
+flooded, en
+inundation, en
+inundations, en
+inundated, en
+banjir, id
+baha, tl
+bumabaha, tl
+pagbaha, tl
+inonder, fr
+inondation, fr
+flut, de
+hochwasser, de
+Überflutung, de
+inondazione, it
+inondacioni, it
+alluvione, it
+overstroming, nl
+powódź, pl
+powodzie, pl
+poplava, sr
+poplave, sr
+поплава, sr
+поплаве, sr
+inundação, pt
+inundacão, pt
+inundaçao, pt
+inundacao, pt
+alagar, pt
+inundações, pt
+inundación, es
+inundacion, es
+inundar, es
+desbordar, es
+anegar, es
+inundaciones, es
+su taşkın, tr
+su baskını, tr
+sel bastı, tr
+sel suyu, tr
+sel suyu bastı, tr
+sel suyu taştı, tr
+sel yüzünden, tr
+taşkın oldu, tr
+sel suyunun, tr
