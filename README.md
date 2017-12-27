@@ -4,6 +4,11 @@ TAGGS
 TAGGS is a tool to geoparse tweets based on the tweet content.  First, tweets are collected over a 24-hour period. Each individual tweet within this timeframe is analyzed on an individual basis by matching the text of the tweet to our gazetteer (toponym recognition). Next, each of the tweets’ candidate locations is given a score, indicating how well the candidate location matches the tweets’ additional spatial information. While previous approaches use the information of this individual tweet, we group all tweets according to the mentioned toponym, found in the toponym recognition step. Then, we compute the total score for each of the candidate locations by summing the scores of the individual tweets and use a voting process to assign the best location (toponym resolution) to all tweets in the group. Once the locations have been assigned to the tweets, the same procedure is applied to a later timeframe, which includes newly incoming tweets, while tweets older than 24 hours are not considered any longer.
 
 
+Cite as
+============
+de Bruijn, J.A., de Moel, H., Jongman, B. et al. J geovis spat anal (2018) 2: 2. https://doi.org/10.1007/s41651-017-0010-6
+
+
 Abstract
 ============
 
