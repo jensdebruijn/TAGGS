@@ -1,3 +1,6 @@
+### NOTE: An updated version of this algorithm is integrated in the [Global Flood Monitor](https://www.globalfloodmonitor.org/). Please use [this](https://github.com/jensdebruijn/Global-Flood-Monitor) repository for the best results.
+
+
 TAGGS
 ============
 
